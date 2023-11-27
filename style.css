@@ -509,4 +509,24 @@ ul {
   .course__card-title:hover {
     background-color: hsl(0, 0%, 77%);
   }
+
+  .thesis__container {
+      row-gap: 16px;
+      padding-left: 0;
+      padding-bottom: 24px;
+  }
+
+  .thesis__left__container {
+      width: 100%;
+  }
+
+  .footer {
+      height: auto;
+      border-top: none;
+  }
+
+  .footer__container {
+      padding-left: 16px;
+      padding-right: 16px;
+  }
 }
