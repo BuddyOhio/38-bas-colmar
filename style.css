@@ -9,7 +9,7 @@
 body {
   font-size: 1rem;
   font-family: "Inter", sans-serif;
-  color: #3d3d3d;
+  color: hsl(0, 0%, 24%);
 }
 
 img,
@@ -69,7 +69,7 @@ ul {
 }
 
 .bg-gray {
-  background-color: #dfdfdf;
+  background-color: hsl(0, 0%, 87%);
 }
 
 .container {
@@ -95,11 +95,11 @@ ul {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.8px;
-  color: #3d3d3d;
+  color: hsl(0, 0%, 24%);
 }
 
 .nav__title span {
-  color: #acacac;
+  color: hsl(0, 0%, 67%);
   font-weight: 400;
 }
 
@@ -110,13 +110,18 @@ ul {
 }
 
 .nav__link {
-  color: #3d3d3d;
+  color: hsl(0, 0%, 24%);
+  transition: all .2s;
+}
+
+.nav__link:hover {
+    color: hsl(0, 0%, 5%);
 }
 
 .hero__container {
   display: flex;
   column-gap: 24px;
-  background-color: #dfdfdf;
+  background-color: hsl(0, 0%, 87%);
 }
 
 .hero__left__container {
@@ -143,15 +148,15 @@ ul {
 .hero__right-btn {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #fff;
-  background-color: #3d3d3d;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 24%);
   text-align: center;
   max-width: 330px;
   transition: all 0.3s;
 }
 
 .hero__right-btn:hover {
-  background-color: #505050;
+  background-color: hsl(0, 0%, 31%);
 }
 
 .information__container {
@@ -172,7 +177,7 @@ ul {
 .info__left-description {
   font-weight: 300;
   font-size: 1.03rem;
-  color: #818181;
+  color: hsl(0, 0%, 51%);
 }
 
 .info__left-des-ref {
@@ -184,7 +189,7 @@ ul {
   width: 40%;
   display: flex;
   flex-direction: column;
-  border-left: 2px solid #e3e3e3;
+  border-left: 2px solid hsl(0, 0%, 89%);
 }
 
 .info__right-article {
@@ -194,7 +199,7 @@ ul {
 }
 
 .info__right-article:hover {
-  background-color: #dfdfdf;
+  background-color: hsl(0, 0%, 87%);
 }
 
 .info__right-img {
@@ -219,12 +224,12 @@ ul {
 }
 
 .info__right-btn {
-  color: #08f;
+  color: #0088ff;
   letter-spacing: 0.8px;
 }
 
 .course__container {
-  background-color: #e3e3e3;
+  background-color: hsl(0, 0%, 89%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -247,7 +252,7 @@ ul {
 }
 
 .course__card-content {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 16px 16px 24px;
   display: flex;
   flex-direction: column;
@@ -256,20 +261,20 @@ ul {
 }
 
 .course__card-title {
-  color: #3d3d3d;
+  color: hsl(0, 0%, 24%);
   font-size: 1.4rem;
   font-weight: 500;
 }
 
 .course__card-tag {
   text-transform: uppercase;
-  color: #818181;
+  color: hsl(0, 0%, 51%);
   font-weight: 300;
 }
 
 .course__card-description {
   font-weight: 300;
-  color: #818181;
+  color: hsl(0, 0%, 51%);
   font-size: 0.95rem;
   line-height: 1.3rem;
 }
@@ -309,7 +314,7 @@ ul {
 .thesis__left-description {
   font-weight: 300;
   line-height: 1.4rem;
-  color: #818181;
+  color: hsl(0, 0%, 51%);
 }
 
 .thesis__right__container {
@@ -323,7 +328,7 @@ ul {
 }
 
 .thesis__right-article:hover {
-  background-color: #dfdfdf;
+  background-color: hsl(0, 0%, 87%);
 }
 
 .thesis__right-img {
@@ -338,14 +343,41 @@ ul {
 }
 
 .thesis__right-title {
-  color: #3d3d3d;
+  color: hsl(0, 0%, 24%);
   font-size: 1.4rem;
   font-weight: 500;
 }
 
 .thesis__right-description {
   font-weight: 300;
-  color: #818181;
+  color: hsl(0, 0%, 51%);
   font-size: 0.95rem;
   line-height: 1.3rem;
+}
+
+.footer {
+    border-top: 2px solid hsl(0, 0%, 96%);
+    height: 5rem;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: .8rem;
+    color: hsl(0, 0%, 51%);
+}
+
+.footer__terms-policy {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.footer__terms-policy a {
+    color: hsl(0, 0%, 51%);
+    transition: all .3s;
+}
+
+.footer__terms-policy a:hover {
+    color: hsl(0, 0%, 20%);
 }
