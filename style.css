@@ -36,6 +36,11 @@ ul {
   padding-bottom: 32px;
 }
 
+.px-72 {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
 .pl-24 {
   padding-left: 24px;
 }
@@ -56,6 +61,10 @@ ul {
 .py-16 {
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.bg-gray {
+    background-color: #dfdfdf;
 }
 
 .container {
@@ -133,6 +142,11 @@ ul {
   background-color: #3d3d3d;
   text-align: center;
   max-width: 330px;
+  transition: all .3s;
+}
+
+.hero__right-btn:hover {
+    background-color: #505050;
 }
 
 .information__container {
@@ -173,18 +187,18 @@ ul {
   column-gap: 16px;
   align-items: center;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .info__right-article:hover {
-    background-color: #dfdfdf;
+  background-color: #dfdfdf;
 }
 
 .info__right-img {
   width: 35%;
 }
 
-.info__right-context {
+.info__right-content {
   width: 65%;
   display: flex;
   flex-direction: column;
@@ -204,4 +218,55 @@ ul {
 .info__right-btn {
   color: #08f;
   letter-spacing: 0.8px;
+}
+
+.course__container {
+  background-color: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+}
+
+.course__title {
+  font-size: 2rem;
+}
+
+.course__card__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.course__card {
+  max-width: 305px;
+}
+
+.course__card-content {
+    background-color: #fff;
+    padding: 16px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    min-height: 166px;
+}
+
+.course__card-title {
+    color: #3d3d3d;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.course__card-tag {
+    text-transform: uppercase;
+    color: #818181;
+    font-weight: 300;
+}
+
+.course__card-description {
+    font-weight: 300;
+    color: #818181;
+    font-size: .95rem;
+    line-height: 1.3rem;
 }
